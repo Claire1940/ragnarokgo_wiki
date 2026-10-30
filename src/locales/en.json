@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Ragnarok: GO Wiki - Codes, Classes & Pets",
+      "description": "Ragnarok: GO Wiki for codes, classes, pets, builds, dungeons, bosses, updates, and beginner guides for Gravity's pixel idle RPG mobile game.",
+      "keywords": "Ragnarok: GO, codes, classes, pets, builds, dungeons, bosses, wiki",
+      "ogTitle": "Ragnarok: GO Wiki - Codes, Classes & Pets",
+      "ogDescription": "Ragnarok: GO Wiki for codes, classes, pets, builds, dungeons, bosses, updates, and beginner guides for Gravity's pixel idle RPG mobile game.",
+      "twitterTitle": "Ragnarok: GO Wiki - Codes, Classes & Pets",
+      "twitterDescription": "Ragnarok: GO Wiki for codes, classes, pets, builds, dungeons, bosses, updates, and beginner guides for Gravity's pixel idle RPG mobile game."
     }
   },
   "nav": {},
@@ -27,27 +27,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Gravity-Authorized Pixel Idle RPG",
+    "title": "Ragnarok: GO Wiki",
+    "description": "Ragnarok: GO is a pixel-art idle RPG with auto-battle, offline progression, cute pets, class changes, team dungeons, boss challenges, and real-time chat.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Mobile",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "4,000",
+        "label": "New Player Draws"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "11",
+        "label": "Launch Regions"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "10+",
+        "label": "Supported Languages"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "24/7",
+        "label": "Offline Progression"
       }
     }
   },
@@ -778,26 +778,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Play Ragnarok: GO?",
+    "description": "Follow the official Ragnarok: GO community for the latest codes, class guides, pet tier lists, and update news!",
+    "joinCommunity": "Join our Community",
+    "joinGame": "Play on Mobile"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Ragnarok: GO Wiki",
+    "description": "Your complete resource hub for Ragnarok: GO codes, classes, pets, skills, dungeons, bosses, gear, and update guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "facebook": "Facebook",
+    "reddit": "Reddit",
+    "officialInfo": "Official Info",
+    "appStore": "App Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Ragnarok: GO Wiki. Not affiliated with Gravity Co., Ltd.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
