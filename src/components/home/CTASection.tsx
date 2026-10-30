@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Users } from "lucide-react";
+import { HeartHandshake } from "lucide-react";
 
 interface CTASectionProps {
   title: string;
@@ -36,7 +36,7 @@ export default function CTASection({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Users className="w-5 h-5 mr-2" />
+                <HeartHandshake className="w-5 h-5 mr-2" />
                 {joinCommunity}
               </a>
             </Button>

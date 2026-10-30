@@ -33,7 +33,11 @@
     /* 导航页主题色 */
     --nav-theme: 198 88% 48%;        /* electric cyan blue */
     --nav-theme-light: 198 88% 60%;  /* lighter cyan blue */
-    
+
+    /* 导航页强调色 */
+    --nav-accent: 327 82% 61%;       /* Poring pink */
+    --nav-gold: 43 92% 55%;          /* fantasy gold */
+
     /* Callout 组件颜色 */
     --callout-info-bg: 217 91% 97%;  /* blue-50 */
     --callout-info-border: 217 91% 85%;  /* blue-200 */
@@ -78,6 +82,10 @@
     /* 导航页主题色 - 暗色主题 */
     --nav-theme: 198 88% 48%;        /* electric cyan blue */
     --nav-theme-light: 198 88% 60%;  /* hover/active 高亮 */
+
+    /* 导航页强调色 - 暗色主题 */
+    --nav-accent: 327 82% 61%;       /* Poring pink */
+    --nav-gold: 43 92% 55%;          /* fantasy gold */
 
     /* Callout 组件颜色 - 暗色主题 */
     --callout-info-bg: 217 91% 22%;  /* 更浅的深蓝色（模拟 blue-900/20） */

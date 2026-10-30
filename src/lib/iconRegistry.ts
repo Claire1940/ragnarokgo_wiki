@@ -27,6 +27,11 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
+  Ticket: LucideIcons.Ticket,
+  Trophy: LucideIcons.Trophy,
+  RefreshCcw: LucideIcons.RefreshCcw,
+  Swords: LucideIcons.Swords,
+  CalendarDays: LucideIcons.CalendarDays,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
