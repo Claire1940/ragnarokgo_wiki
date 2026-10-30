@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Ragnarok GO Wiki - Codes, Classes & Pets",
+  "short_name": "Ragnarok GO",
+  "description": "Ragnarok GO Wiki for codes, classes, pets, builds, dungeons, bosses, updates, and beginner guides for Gravity's pixel idle RPG mobile game.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#18B8E8",
+  "background_color": "#0D1424",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
