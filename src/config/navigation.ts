@@ -1,4 +1,3 @@
-import { BookOpen, Sparkles, Package, Eye, Home, MessageCircle } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -9,12 +8,7 @@ export interface NavigationItem {
 }
 
 export const NAVIGATION_CONFIG: NavigationItem[] = [
-	{ key: 'guides', path: '/guides', icon: BookOpen, isContentType: true },
-	{ key: 'crafting', path: '/crafting', icon: Sparkles, isContentType: true },
-	{ key: 'items', path: '/items', icon: Package, isContentType: true },
-	{ key: 'biomes', path: '/biomes', icon: Eye, isContentType: true },
-	{ key: 'building', path: '/building', icon: Home, isContentType: true },
-	{ key: 'support', path: '/support', icon: MessageCircle, isContentType: true },
+	// 内容类型将在后续 Part 按 Ragnarok GO 站点需求填充（Codes/Classes/Pets/Skills/Dungeons/Bosses/Gear/Updates）
 ]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
