@@ -1,47 +1,72 @@
 {
+  "topic_name": "ragnarok go",
   "categories": [
     {
-      "category": "Guides",
+      "category": "guide",
       "keywords": [
-        "lucid blocks guide"
+        "ragnarok go guide",
+        "ragnarok go beginner guide",
+        "ragnarok go how to go to niflheim",
+        "ragnarok go how to go to ayothaya",
+        "ragnarok go how to go to amatsu",
+        "ragnarok go how to go to comodo",
+        "ragnarok go how to go to gonryun",
+        "ragnarok go how to go to lutie"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "codes",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "ragnarok go codes"
       ]
     },
     {
-      "category": "Items",
+      "category": "classes",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "ragnarok go best class",
+        "ragnarok go class guide",
+        "ragnarok go class tier list"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "platforms",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "ragnarok go download",
+        "ragnarok go android",
+        "ragnarok go ios",
+        "ragnarok go pc",
+        "ragnarok go apk"
       ]
     },
     {
-      "category": "Building",
+      "category": "release",
       "keywords": [
-        "lucid blocks qualia"
+        "ragnarok go release date",
+        "ragnarok go open beta",
+        "ragnarok go cbt",
+        "ragnarok go obt"
       ]
     },
     {
-      "category": "Support",
+      "category": "mechanics",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "ragnarok go gameplay",
+        "ragnarok go idle",
+        "ragnarok go multiplayer",
+        "ragnarok go auto adventure",
+        "ragnarok go gift rewards"
+      ]
+    },
+    {
+      "category": "progression",
+      "keywords": [
+        "ragnarok go leveling guide",
+        "ragnarok go equipment guide",
+        "ragnarok go boss guide",
+        "ragnarok go beginner tips"
       ]
     }
-  ]
+  ],
+  "contentCountAfterMerging": 34,
+  "content_count_after_merge": 34
 }

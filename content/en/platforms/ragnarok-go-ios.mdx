@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ragnarok Go iOS: Setup Guide, Tips & Best Settings",
+  description: "How to install and optimize Ragnarok Go on iOS: device requirements, account setup, control settings, and beginner tips for a smooth launch experience.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Ragnarok+Go+iOS+Guide",
+  date: "2026-10-30",
+  author: "ragnarok go Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ragnarok Go iOS** launched officially in SEA and supports iPhone and iPad with cross-platform play.
+- **App Store download** is the only safe install path — avoid third-party IPA sources.
+- **Best settings**: lower shadows/effects on older iPhones to keep frame rates stable.
+- **Link your account** to a Gravity or platform account before rerolling or switching devices.
+- **Starter priority**: follow the main quest line to unlock auto-battle and card systems early.
+</Callout>
+
+<Section icon={Map} title="Ragnarok Go iOS Overview and Launch Details">
+
+Ragnarok Go is the mobile entry in the classic Ragnarok Online universe, officially launched in Southeast Asia for both Android and iOS. If you play on an iPhone or iPad, the good news is that the iOS build launched at feature parity with Android, including the same progression, events, and cross-server content.
+
+**Video Highlights:**
+- Official SEA launch gameplay captured on both Android and iOS devices
+- Shows the classic Rune-Midgard world adapted for mobile touch controls
+- Demonstrates combat flow, skill animations, and the card-based progression system
+- Confirms stable performance on mid-range phones at launch settings
+
+<YouTubeEmbed videoId="gMHrn-6Wfl4" title="Ragnarok Go SEA Gameplay Android / iOS (Official Launch)" />
+
+Here is how the iOS version compares to other platforms at a glance:
+
+| Feature | iOS | Android | Notes |
+| --- | --- | --- | --- |
+| Launch regions | SEA (official) | SEA (official) | Same launch window |
+| App source | App Store | Google Play | Avoid third-party stores |
+| Cross-platform | Yes | Yes | Shared servers and progress |
+| Controller support | Limited | Limited | Touch-first design |
+| Account binding | Gravity/platform accounts | Same | Bind before rerolling |
+
+<Callout type="tip" title="Regional Access">
+If Ragnarok Go is not yet visible in your local App Store, create a Southeast Asia Apple ID region account or wait for the official global rollout. Never install modified IPAs from unofficial sites, as they risk account bans and malware.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="iOS Setup: Step-by-Step Installation">
+
+Getting started on iOS takes just a few minutes if you follow the correct order. The most common mistake new players make is skipping account binding, which locks progress to a single device.
+
+<Steps>
+  <Step num="1" title="Check Device Compatibility">
+    Verify your iPhone runs a recent iOS version and has at least 3 GB of RAM. iPhone 8 and older devices may struggle with large field battles. Free up at least 4 GB of storage before downloading.
+  </Step>
+  <Step num="2" title="Download from the App Store">
+    Search "Ragnarok Go" in the App Store and confirm the publisher is Gravity before tapping Get. The initial download includes a patch, so stay on Wi-Fi to avoid data charges.
+  </Step>
+  <Step num="3" title="Create and Bind Your Account">
+    After the intro, create a character and immediately bind to a Gravity account or Apple sign-in. This protects progress and enables device transfers.
+  </Step>
+  <Step num="4" title="Optimize Graphics Settings">
+    Open Settings and reduce shadow quality and effect density on older devices. Keep frame rate at 60 if your device supports it for smoother skill cancels.
+  </Step>
+  <Step num="5" title="Start the Main Quest Line">
+    Follow the main quests to unlock auto-battle, cards, and party features, which dramatically speed up early leveling.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Storage Management">
+Ragnarok Go receives frequent content patches. Keep roughly 2 GB of free space after installation so updates do not fail mid-download, which can corrupt game data on iOS.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best iOS Settings and Performance Tips">
+
+Performance on iOS depends heavily on device generation and settings balance. Use this reference table to match your iPhone tier to recommended settings:
+
+| Device Tier | Examples | Graphics Preset | Frame Rate | Expected Experience |
+| --- | --- | --- | --- | --- |
+| High-end | iPhone 13 Pro and newer | High | 60 fps | ★★★★★ |
+| Mid-range | iPhone 11–13 | Medium | 60 fps | ★★★★ |
+| Older | iPhone X, XR, SE | Low-Medium | 30–60 fps | ★★★ |
+| iPad | Most modern iPads | High | 60 fps | ★★★★★ |
+
+Additional optimization tips:
+
+- **Close background apps** before boss raids to free RAM.
+- **Enable Low Power Mode off** while playing — it caps frame rate on iOS.
+- **Reduce notification interruptions** using Focus mode during long grinding sessions.
+- **Play on Wi-Fi** for guild war content to reduce latency spikes.
+
+<Callout type="success" title="Battery Tip">
+Turning screen brightness down to about 50% and using effect quality Medium extends battery life during long grinding sessions by a noticeable margin without hurting gameplay clarity.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Beginner Progression Priorities on iOS">
+
+New players on iOS should focus on systems that unlock the fastest long-term value. These four priorities cover the critical first week:
+
+<CardGrid cols={2}>
+  <Card title="Main Quest Rush">
+    - Unlocks **auto-battle** early
+    - Opens card and gear systems
+    - Best early XP source
+  </Card>
+  <Card title="Card Collection">
+    - Cards boost stats permanently
+    - Farm daily card dungeons
+    - Prioritize damage cards first
+  </Card>
+  <Card title="Daily Dungeons">
+    - Limited entries per day
+    - Spend all entries before reset
+    - Material income for upgrades
+  </Card>
+  <Card title="Guild Membership">
+    - Unlocks guild buffs and events
+    - Extra reward tracks
+    - Social party grinding
+  </Card>
+</CardGrid>
+
+Use this checklist to stay on track during your first week:
+
+<Checklist
+  id="ios-first-week"
+  title="First Week Goals:"
+  items={[
+    "Complete the main quest through chapter auto-battle unlock",
+    "Bind account to Gravity or Apple sign-in",
+    "Join an active guild",
+    "Spend all daily dungeon entries each day",
+    "Equip and upgrade first card set"
+  ]}
+/>
+
+<Callout type="tip" title="Reroll Advice">
+If you plan to reroll for a strong starting pull, do it before investing hours into progression. Account binding makes transferring easy, but rerolling is fastest on a fresh unbound install.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Class Comparison for Mobile Play">
+
+Class choice matters more on mobile because touch controls favor certain playstyles. Here is how the core archetypes feel on an iPhone screen:
+
+| Class Type | Mobile Feel | Skill Demands | Solo Rating | Party Rating |
+| --- | --- | --- | --- | --- |
+| Melee (Swordsmen) | Simple tap targeting | Low | ★★★★ | ★★★★ |
+| Ranged (Archers) | Comfortable auto-aim | Low-Medium | ★★★★ | ★★★★★ |
+| Magic (Mages) | Position-dependent casting | Medium | ★★★ | ★★★★★ |
+| Support (Acolytes) | Buff timing focus | Medium | ★★★ | ★★★★★ |
+
+<Callout type="info" title="Playstyle Note">
+Ranged and melee classes generally handle mobile latency better than casters because their skills are less interruptible. If your connection fluctuates on cellular data, favor auto-aim-friendly archetypes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Ragnarok Go free to download on iOS?",
+    answer: "Yes, Ragnarok Go is a free download on the App Store in supported launch regions such as Southeast Asia. The game includes optional in-app purchases, but all core content is accessible without spending."
+  },
+  {
+    question: "Can I transfer my Ragnarok Go iOS progress to Android?",
+    answer: "Yes. Progress is shared across platforms on the same servers. Bind your character to a Gravity account or Apple sign-in first, then log in with the same account on the other device."
+  },
+  {
+    question: "Why is Ragnarok Go not showing in my App Store?",
+    answer: "The official launch covers Southeast Asia first. If you are outside supported regions, the listing may not appear until the global rollout. Use a SEA-region Apple ID or wait for an official announcement."
+  },
+  {
+    question: "What is the best iOS device setting for Ragnarok Go?",
+    answer: "On iPhone 11 and newer, run the Medium or High preset at 60 fps. On older devices, drop shadows and effect density to Low-Medium to keep combat smooth during crowded field bosses."
+  }
+]} />
+
+</Section>

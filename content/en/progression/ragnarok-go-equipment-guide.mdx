@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Equipment Guide: Best Gear Setup & Farming Builds",
+  description: "Ragnarok Go equipment guide covering gear slots, card choices, budget vs endgame setups, and farming builds for maximum damage and efficiency.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Equipment+Guide",
+  date: "2026-10-30",
+  author: "ragnarok go Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ragnarok Go equipment guide**: Gear slots, cards, and refinement form the core of any build.
+- **Stat synergy matters**: Match gear bonuses to your class's primary stats (INT/DEX for mages, STR/AGI for melee).
+- **Budget first**: Farm with affordable gear, then upgrade toward endgame pieces step by step.
+- **Cards are multipliers**: The right card in the right slot often outperforms a raw gear upgrade.
+- **Element advantage**: Always align your weapon element or spell type with monster weaknesses.
+</Callout>
+
+<Section icon={Shield} title="Equipment Fundamentals: Slots and Priorities">
+
+Your character's power in Ragnarok Go is built across nine equipment slots: headgear (upper, middle, lower), armor, weapon, shield, garment, boots, and two accessories. Each slot contributes stat bonuses, and most slots also accept a card that adds another layer of customization. Before chasing rare drops, understand which slots give the biggest returns for your class.
+
+**Slot priority generally follows this order:**
+
+| Priority | Slot | Why It Matters | Typical Goal |
+|---|---|---|---|
+| 1 | Weapon | Main damage source, element and card scaling | High refinement, damage cards |
+| 2 | Armor | Survival plus stat bonuses | Class-stat armor, HP/SP cards |
+| 3 | Boots | HP/SP and mobility stats | Percentage HP/SP bonus boots |
+| 4 | Headgear | Stat stacking, set bonuses | INT/STR/DEX focused pieces |
+| 5 | Accessories | Cast time, damage multipliers | Element or skill damage cards |
+| 6 | Shield | Damage reduction | Reduction cards vs race/element |
+| 7 | Garment | Elemental resistance | Resistance cards |
+
+<Callout type="tip" title="Pro Tip">
+Refinement matters most on weapons and armor. A few refine levels on your weapon often beats an entire accessory upgrade. Push weapon refinement first whenever you have spare resources.
+</Callout>
+
+For magic-based classes like Professor or Sage builds, the core principle is stacking **INT** for magic attack and **DEX** for cast speed. A classic farming spread runs 99 INT and 99 DEX, with remaining points in VIT for survivability. Melee and ranged classes instead prioritize STR or AGI/DEX, so always verify a gear recommendation matches your class before investing.
+
+</Section>
+
+<Section icon={Sparkles} title="Magic Farmer Gear Setup: Budget to Endgame">
+
+Magic farming builds reward gear that stacks magic attack, INT, and cast-time reduction. The progression from starter gear to endgame gear can be broken into clear tiers, so you always know what to aim for next.
+
+**Gear progression by tier:**
+
+| Slot | Budget Setup | Mid-Tier | Endgame Setup |
+|---|---|---|---|
+| Upper Head | Crown of Desert | INT-stat crown | Skull Cap with card |
+| Weapon | +9 Lione Wand (double carded) | Elemental staff | Themed staff matching headgear set |
+| Armor | Any carded armor | Class-stat robe | Refined Diabolus-class robe |
+| Shield | Basic guard | Elemental reducer | Magic Bible-class shield |
+| Garment | Standard muffler | Resistance garment | Flame mantle with Aliot-type card |
+| Boots | Variant Shoes (+20% HP/SP) | Temporal boots base | Refined Temporal boots |
+| Accessory | Alchemy Glove | Damage glove | Imp-type card for bolt damage |
+
+<CardGrid cols={3}>
+  <Card title="Budget Farmer">
+    - **Crown of Desert + Lione Wand**
+    - Variant Shoes for HP/SP
+    - Any carded armor works
+    - Farm goats and low-tier spots
+  </Card>
+  <Card title="Mid-Tier Farmer">
+    - Refined elemental staff
+    - Resistance garment and shield
+    - First damage cards slotted
+    - Manuk-class maps become viable
+  </Card>
+  <Card title="Endgame Farmer">
+    - **Full set-bonus headgear and staff**
+    - Refined Temporal boots
+    - Bolt-damage accessories
+    - One-hit clears on most farm mobs
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Why Boots Matter Early">
+Variant Shoes give an additional 20% HP and SP, which is exceptionally valuable if you also play a support role in party content. They are one of the best early purchases for hybrid players.
+</Callout>
+
+Pets add another layer. Pets that grant extra magic attack or INT are the go-to for magic farmers. If you lack premium pets, alternatives like Willow, Familiar, or Rideword-type pets provide INT or magic attack bonuses until you can afford better options.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: Building Your First Farming Set">
+
+Follow this sequence to avoid wasting zeny on gear you will replace quickly. The order below is designed so every purchase immediately improves your farming speed.
+
+<Steps>
+  <Step num="1" title="Lock In Your Farming Spot">
+    Choose a map whose monsters are weak to your main skill's element. Bolt-type mages farm best where monsters are fire-weak or water-weak, since Fire Bolt and Cold Bolt are the primary damage skills.
+  </Step>
+  <Step num="2" title="Buy the Budget Core">
+    Pick up a Budget-tier weapon and Variant Shoes first. These two slots give the largest immediate boost to clear speed and survival.
+  </Step>
+  <Step num="3" title="Slot Your First Cards">
+    Add damage cards to your weapon and a survival or stat card to armor. Two necromancer-class cards in a budget wand are a proven starter combo for magic farmers.
+  </Step>
+  <Step num="4" title="Refine the Weapon">
+    Push refinement on your weapon before anything else. Each level compounds with your cards and stat scaling.
+  </Step>
+  <Step num="5" title="Upgrade Piece by Piece">
+    Replace budget items with endgame equivalents one slot at a time, starting with the headgear-weapon set combo, then boots, then accessories.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avoid This Mistake">
+Do not buy endgame accessories before upgrading your weapon and headgear. Accessories with niche damage cards only pay off once your base damage is high enough to multiply.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Farming Efficiency: Drops, Buffs, and Safety">
+
+Good gear only pays off if you farm efficiently. Three habits separate consistent farmers from players who bleed zeny: buffs, positioning, and drop targeting.
+
+**High-value farm drops to target:**
+
+| Drop Type | Use | Where It Shines |
+|---|---|---|
+| Fur / Peak-type materials | Trade for food buffs at camp NPCs | Steady income every run |
+| Luna Kaligo-class weapon | Rare weapon drop, high resale | Lucky-hit profit |
+| Braium-class shield | Rare shield drop | Long-term upgrade or sale |
+| Radium-type materials | Crafting and upgrade currency | Consistent volume farming |
+
+Before every session, activate your buffs first, then warp directly to your farming map. INT and DEX food buffs are the standard pair for magic farmers: INT raises magic damage while DEX reduces cast time, making each clearing cycle smoother.
+
+<Callout type="tip" title="Fly Wing Discipline">
+Always carry a stack of Fly Wings. Farm mobs hit hard, and repositioning is always cheaper than dying. Death costs you the walk back, the rebuff, and minutes of farming time.
+</Callout>
+
+<Checklist
+  id="farming-session"
+  title="Pre-Farm Session Checklist:"
+  items={[
+    "Activate all buffs before warping to the map",
+    "Stock INT and DEX food buffs",
+    "Carry a full stack of Fly Wings",
+    "Confirm weapon element matches monster weakness",
+    "Set pet to magic attack or INT bonus"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Class Flexibility and Long-Term Value">
+
+One overlooked advantage of magic farming gear is sharing. Several pieces in a magic farmer's endgame setup can also be used by other magic classes such as Super Novice builds, meaning your investment serves multiple characters. That said, classes with unique multi-hit mechanics, like a Professor's Double Bolt triggering an extra bolt cast, still farm faster and more consistently than generic magic users.
+
+<Callout type="info" title="Build Limitation to Know">
+Bolt-type mages have limited farming spots because their damage depends on Fire Bolt and Cold Bolt elements. You perform best where monsters are weak to fire or water. Plan your farm routes around this rather than fighting elemental mismatches.
+</Callout>
+
+Professors remain one of the most versatile classes to invest in: fast farming, strong support utility, and constant demand for party instances. If your goal is a character that farms efficiently while slotting into party content on demand, a magic farmer is one of the strongest long-term builds.
+
+</Section>
+
+<Section icon={Swords} title="Equipment Guide FAQ">
+
+<FAQ items={[
+  {
+    question: "What should I upgrade first in this Ragnarok Go equipment guide?",
+    answer: "Start with your weapon and boots. A Budget-tier weapon plus Variant Shoes gives the biggest jump in clear speed and survivability, and both remain useful as you progress."
+  },
+  {
+    question: "Can I farm endgame maps with budget gear?",
+    answer: "Yes. Proven budget setups like Crown of Desert and a +9 carded Lione Wand can clear lower-tier farm maps effectively while you save for endgame pieces. Start on beginner spots like goats before moving to harder maps."
+  },
+  {
+    question: "Which cards should I prioritize?",
+    answer: "For magic builds, weapon damage cards come first, followed by bolt-damage cards in accessories like an Imp-type card. For armor, any stat or survival card works at budget level."
+  },
+  {
+    question: "Do I need expensive pets to farm well?",
+    answer: "No. Any pet granting magic attack or INT works. Premium pets that reduce cast delay or boost fire damage feel smoother, but free alternatives like Willow or Familiar cover the gap until you can afford one."
+  }
+]} />
+
+</Section>

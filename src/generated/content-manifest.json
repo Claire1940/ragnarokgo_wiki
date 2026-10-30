@@ -1,3 +1,274 @@
 {
-  "en": {}
+  "en": {
+    "classes": [
+      {
+        "slug": "ragnarok-go-best-class",
+        "file": "ragnarok-go-best-class"
+      },
+      {
+        "slug": "ragnarok-go-class-guide",
+        "file": "ragnarok-go-class-guide"
+      },
+      {
+        "slug": "ragnarok-go-class-tier-list",
+        "file": "ragnarok-go-class-tier-list"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "ragnarok-go-codes",
+        "file": "ragnarok-go-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ragnarok-go-beginner-guide",
+        "file": "ragnarok-go-beginner-guide"
+      },
+      {
+        "slug": "ragnarok-go-guide",
+        "file": "ragnarok-go-guide"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-amatsu",
+        "file": "ragnarok-go-how-to-go-to-amatsu"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-ayothaya",
+        "file": "ragnarok-go-how-to-go-to-ayothaya"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-comodo",
+        "file": "ragnarok-go-how-to-go-to-comodo"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-gonryun",
+        "file": "ragnarok-go-how-to-go-to-gonryun"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-lutie",
+        "file": "ragnarok-go-how-to-go-to-lutie"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-niflheim",
+        "file": "ragnarok-go-how-to-go-to-niflheim"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "ragnarok-go-auto-adventure",
+        "file": "ragnarok-go-auto-adventure"
+      },
+      {
+        "slug": "ragnarok-go-gameplay",
+        "file": "ragnarok-go-gameplay"
+      },
+      {
+        "slug": "ragnarok-go-gift-rewards",
+        "file": "ragnarok-go-gift-rewards"
+      },
+      {
+        "slug": "ragnarok-go-idle",
+        "file": "ragnarok-go-idle"
+      },
+      {
+        "slug": "ragnarok-go-multiplayer",
+        "file": "ragnarok-go-multiplayer"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "ragnarok-go-android",
+        "file": "ragnarok-go-android"
+      },
+      {
+        "slug": "ragnarok-go-apk",
+        "file": "ragnarok-go-apk"
+      },
+      {
+        "slug": "ragnarok-go-download",
+        "file": "ragnarok-go-download"
+      },
+      {
+        "slug": "ragnarok-go-ios",
+        "file": "ragnarok-go-ios"
+      },
+      {
+        "slug": "ragnarok-go-pc",
+        "file": "ragnarok-go-pc"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "ragnarok-go-beginner-tips",
+        "file": "ragnarok-go-beginner-tips"
+      },
+      {
+        "slug": "ragnarok-go-boss-guide",
+        "file": "ragnarok-go-boss-guide"
+      },
+      {
+        "slug": "ragnarok-go-equipment-guide",
+        "file": "ragnarok-go-equipment-guide"
+      },
+      {
+        "slug": "ragnarok-go-leveling-guide",
+        "file": "ragnarok-go-leveling-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ragnarok-go-cbt",
+        "file": "ragnarok-go-cbt"
+      },
+      {
+        "slug": "ragnarok-go-obt",
+        "file": "ragnarok-go-obt"
+      },
+      {
+        "slug": "ragnarok-go-open-beta",
+        "file": "ragnarok-go-open-beta"
+      },
+      {
+        "slug": "ragnarok-go-release-date",
+        "file": "ragnarok-go-release-date"
+      }
+    ]
+  },
+  "ja": {
+    "classes": [
+      {
+        "slug": "ragnarok-go-best-class",
+        "file": "ragnarok-go-best-class"
+      },
+      {
+        "slug": "ragnarok-go-class-guide",
+        "file": "ragnarok-go-class-guide"
+      },
+      {
+        "slug": "ragnarok-go-class-tier-list",
+        "file": "ragnarok-go-class-tier-list"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "ragnarok-go-codes",
+        "file": "ragnarok-go-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ragnarok-go-beginner-guide",
+        "file": "ragnarok-go-beginner-guide"
+      },
+      {
+        "slug": "ragnarok-go-guide",
+        "file": "ragnarok-go-guide"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-amatsu",
+        "file": "ragnarok-go-how-to-go-to-amatsu"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-ayothaya",
+        "file": "ragnarok-go-how-to-go-to-ayothaya"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-comodo",
+        "file": "ragnarok-go-how-to-go-to-comodo"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-gonryun",
+        "file": "ragnarok-go-how-to-go-to-gonryun"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-lutie",
+        "file": "ragnarok-go-how-to-go-to-lutie"
+      },
+      {
+        "slug": "ragnarok-go-how-to-go-to-niflheim",
+        "file": "ragnarok-go-how-to-go-to-niflheim"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "ragnarok-go-auto-adventure",
+        "file": "ragnarok-go-auto-adventure"
+      },
+      {
+        "slug": "ragnarok-go-gameplay",
+        "file": "ragnarok-go-gameplay"
+      },
+      {
+        "slug": "ragnarok-go-gift-rewards",
+        "file": "ragnarok-go-gift-rewards"
+      },
+      {
+        "slug": "ragnarok-go-idle",
+        "file": "ragnarok-go-idle"
+      },
+      {
+        "slug": "ragnarok-go-multiplayer",
+        "file": "ragnarok-go-multiplayer"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "ragnarok-go-android",
+        "file": "ragnarok-go-android"
+      },
+      {
+        "slug": "ragnarok-go-apk",
+        "file": "ragnarok-go-apk"
+      },
+      {
+        "slug": "ragnarok-go-download",
+        "file": "ragnarok-go-download"
+      },
+      {
+        "slug": "ragnarok-go-ios",
+        "file": "ragnarok-go-ios"
+      },
+      {
+        "slug": "ragnarok-go-pc",
+        "file": "ragnarok-go-pc"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "ragnarok-go-beginner-tips",
+        "file": "ragnarok-go-beginner-tips"
+      },
+      {
+        "slug": "ragnarok-go-boss-guide",
+        "file": "ragnarok-go-boss-guide"
+      },
+      {
+        "slug": "ragnarok-go-equipment-guide",
+        "file": "ragnarok-go-equipment-guide"
+      },
+      {
+        "slug": "ragnarok-go-leveling-guide",
+        "file": "ragnarok-go-leveling-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ragnarok-go-cbt",
+        "file": "ragnarok-go-cbt"
+      },
+      {
+        "slug": "ragnarok-go-obt",
+        "file": "ragnarok-go-obt"
+      },
+      {
+        "slug": "ragnarok-go-open-beta",
+        "file": "ragnarok-go-open-beta"
+      },
+      {
+        "slug": "ragnarok-go-release-date",
+        "file": "ragnarok-go-release-date"
+      }
+    ]
+  }
 }

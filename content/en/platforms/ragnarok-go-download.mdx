@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ragnarok Go Download: Setup Guide for Android & iOS (2026)",
+  description: "How to download and install Ragnarok Go on Android and iOS, plus first-day setup tips, device requirements, and troubleshooting advice.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Ragnarok+Go+Download",
+  date: "2026-10-30",
+  author: "ragnarok go Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ragnarok Go download** is available on **Google Play and the App Store** in supported SEA regions.
+- **Storage matters**: keep at least **3-4 GB free** for the initial install and launch-day patch.
+- **Stable Wi-Fi** is strongly recommended for the first launch download of game assets.
+- **Link your account** immediately after install to protect progression across devices.
+- **Region availability** varies; use an official store listing in your country for the safest install.
+</Callout>
+
+<Section icon={Download} title="Ragnarok Go Download: Where to Get the Game">
+
+The Ragnarok Go download process is straightforward once you know which store serves your region. Following the official Southeast Asia launch, the game is distributed through standard mobile storefronts, and grabbing it from an official source ensures you receive updates, events, and security patches on schedule.
+
+**Video Highlights:**
+- Official launch gameplay captured on Android and iOS devices
+- Demonstrates the game running on both mobile platforms after launch
+- Useful for checking visual performance before you install
+
+<YouTubeEmbed videoId="gMHrn-6Wfl4" title="Ragnarok Go SEA Gameplay Android / iOS (Official Launch)" />
+
+| Platform | Store Source | Region Notes | File Size (Approx.) |
+| --- | --- | --- | --- |
+| Android | Google Play Store | SEA launch regions first | 1-2 GB base, expands after first launch |
+| iOS | Apple App Store | SEA launch regions first | 2-3 GB download listed on store page |
+| Emulator | Official game website | Performance varies by emulator | Same as Android client |
+
+<Callout type="warning" title="Avoid Third-Party APKs">
+Downloading Ragnarok Go from unofficial APK mirrors risks malware, stolen account credentials, and missing launch rewards. Only use Google Play, the App Store, or a storefront link published on the game's official channels.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Device Requirements & Storage Prep">
+
+Before starting your Ragnarok Go download, confirm your device can comfortably run the game. Mobile MMORPGs download additional asset packs after first launch, so the listed store size is rarely the final footprint.
+
+| Requirement | Minimum | Recommended |
+| --- | --- | --- |
+| OS (Android) | Android 8.0 | Android 11 or newer |
+| OS (iOS) | iOS 13 | iOS 15 or newer |
+| RAM | 3 GB | 6 GB or more |
+| Storage Free | 4 GB | 8 GB |
+| Connection | Any (install only) | Stable Wi-Fi for asset download |
+
+<CardGrid cols={3}>
+  <Card title="Clear Space First">
+    - Delete unused apps and old downloads
+    - Offload photos to cloud storage
+    - Target **8 GB free** for headroom
+  </Card>
+  <Card title="Check Your Network">
+    - Use Wi-Fi for the initial asset download
+    - Avoid metered or public hotspots
+    - Keep the download uninterrupted
+  </Card>
+  <Card title="Update Your OS">
+    - Install pending system updates
+    - Restart the device before installing
+    - Closes background memory hogs
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pre-Download Tip">
+Store pages often let you pre-register or pre-download before major patches. Enabling auto-update for the game in your store settings keeps you patched without manual checks.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Install & First Launch">
+
+<Steps>
+  <Step num="1" title="Open Your Official Store">
+    Open Google Play or the App Store and search for Ragnarok Go. Confirm the publisher name matches the official listing before tapping Install.
+  </Step>
+  <Step num="2" title="Start the Download">
+    Tap Install (or Get). The base client downloads first; keep the device on Wi-Fi and plugged in if possible.
+  </Step>
+  <Step num="3" title="Launch and Accept Permissions">
+    Open the game and grant storage permissions when prompted. Declining storage access can block the asset download.
+  </Step>
+  <Step num="4" title="Download Game Assets">
+    The first launch triggers a larger in-game asset download. Do not force-close the app during this phase.
+  </Step>
+  <Step num="5" title="Create and Link Your Account">
+    Create your character, then immediately link to a Google, Apple, or platform account to secure your progress.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Launch Reward Reminder">
+New accounts installed during official launch windows typically qualify for launch celebration rewards. Claim them from your in-game mailbox after finishing the tutorial so they do not expire.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Common Install Issues">
+
+Install problems are almost always storage, network, or region related. Work through this table in order, since the first fixes resolve the majority of cases.
+
+| Symptom | Likely Cause | Fix |
+| --- | --- | --- |
+| "Not available in your country" | Store region mismatch | Use an account set to a launch region; wait for wider rollout |
+| Download stuck at same percentage | Wi-Fi instability or cache issue | Restart router, clear Play Store cache, retry |
+| "Insufficient storage" despite free space | System reserved partitions | Free more space; target 8 GB before retrying |
+| Game crashes on launch | Outdated OS or low RAM | Update OS, close background apps, reboot |
+| Asset download loops | Interrupted first download | Reinstall over stable Wi-Fi; keep screen on |
+
+<Callout type="warning" title="Do Not Reinstall Recklessly">
+If you already have progress, link your account before uninstalling. Unlinked local progress is generally unrecoverable after a reinstall.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Post-Install Checklist">
+
+<Checklist
+  id="post-install-goals"
+  title="First-Day Setup Milestones:"
+  items={[
+    "Complete the tutorial and unlock free movement",
+    "Link account to Google, Apple, or platform login",
+    "Claim launch mailbox rewards before expiry",
+    "Join an active guild or community group",
+    "Set graphics preset based on device performance"
+  ]}
+/>
+
+<Callout type="tip" title="Performance Tip">
+If the game feels warm or choppy on older devices, drop to a medium or low graphics preset first. Frame stability matters more than visual polish in crowded field areas and boss fights.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is the Ragnarok Go download free?",
+    answer: "Yes, the game is free to download and play on both Android and iOS. Like most mobile MMORPGs, it offers optional in-app purchases for cosmetics and convenience items."
+  },
+  {
+    question: "Can I play Ragnarok Go outside Southeast Asia?",
+    answer: "Availability depends on your store region. If the listing does not appear in your country's store, the game may not have launched there yet. Only download from official storefronts serving your account region."
+  },
+  {
+    question: "How much storage do I need for the full install?",
+    answer: "Plan for roughly 3-4 GB after the first-launch asset download completes, and keep about 8 GB free to account for future patches and event content."
+  },
+  {
+    question: "Can I transfer my progress to a new device?",
+    answer: "Yes, as long as you linked your account through the in-game account settings. Install the game on the new device, log in with the same linked account, and your progress carries over."
+  }
+]} />
+
+</Section>

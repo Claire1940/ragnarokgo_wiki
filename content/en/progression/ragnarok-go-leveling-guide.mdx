@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ragnarok Go Leveling Guide: Fast EXP Route & Grinding Tips",
+  description: "Level fast in Ragnarok Go with this step-by-step leveling guide: best grinding spots, party EXP bonuses, quest timing, and card farming routes by level.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Leveling+Guide",
+  date: "2026-10-30",
+  author: "ragnarok go Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ragnarok Go leveling** rewards smart planning over pure grinding — party up and track your daily kill quota.
+- **Story quests** should be saved and cashed in when the server level rises for maximum EXP.
+- **Grinding spots** matter by level bracket: pick maps that drop the cards your class actually needs.
+- **Survival first**: a healing pet and auto-recovery items keep AFK grinding running without deaths.
+- **Mid-game pivot**: balance EXP per hour against valuable loot like Pasana and Skel Worker cards.
+</Callout>
+
+<Section icon={Map} title="Leveling Fundamentals: How EXP Works in Ragnarok Go">
+
+Progression in Ragnarok Go runs on two parallel tracks: **base EXP** (character level) and **job EXP** (skill level). Both come from the same activities, but the ratios differ depending on what you do. Understanding your daily limits is the foundation of efficient leveling.
+
+Daily monster kill quota is the main throttle on grinding. Instead of unlimited farming, you receive a fixed number of rewarded kills per day, and this quota can be extended or accelerated with consumables. Stacking quota items before a long grinding session lets you bank kills for later use.
+
+<CardGrid cols={3}>
+  <Card title="Base EXP">
+    - Raises **character level**
+    - Gates story quest progression
+    - Unlocks higher-level maps and gear
+  </Card>
+  <Card title="Job EXP">
+    - Raises **job level**
+    - Unlocks and upgrades skills
+    - Improves build power directly
+  </Card>
+  <Card title="Daily Quota">
+    - Fixed **rewarded kills per day**
+    - Boostable with candy items
+    - Stackable up to a weekly cap
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Party Bonus Is Non-Negotiable">
+Always grind in a party. Party members increase the base and job EXP your character earns per kill, and shared kills count toward everyone's quota. A full party can more than offset the slower kill speed of crowded maps.
+</Callout>
+
+**Key daily EXP sources ranked by efficiency:**
+
+| Source | EXP Type | Daily Limit | Notes |
+|---|---|---|---|
+| Monster grinding | Base + Job | Kill quota | Main source, boost with candy |
+| Daily commissions | Base + Job | Ticket-based | 80 tickets per day, quick clears |
+| Story quests | Base + Job | Chapter-gated | **Save for server level ups** |
+| Sub quests | Base + Job | Zone-gated | Also scale with server level |
+| Exclusive VIP map | Base + Job | Pass-gated | Private map for your party only |
+
+</Section>
+
+<Section icon={Target} title="Leveling Route: Step-by-Step from Level 1">
+
+The fastest route through the early and mid game follows a clear sequence. Follow these steps in order and you will minimize wasted quota and dead time.
+
+<Steps>
+  <Step num="1" title="Days 1-3: Push Story Quests">
+    Clear story quests nonstop until your current level blocks further progression. Early quests shower you with gear, consumables, and unlock materials that make every later stage easier.
+  </Step>
+  <Step num="2" title="Save Remaining Quests">
+    Once quests are level-locked, stop submitting them. Story and sub quest EXP scales with the server level, so submitting them right after a server level increase yields significantly more EXP.
+  </Step>
+  <Step num="3" title="Set Up Survival for AFK Grinding">
+    Equip and upgrade a healing pet such as Baphomet Jr., stock pet recovery food, and configure your character's auto-recovery device so neither you nor your pet dies during long grind sessions.
+  </Step>
+  <Step num="4" title="Burn Daily Quota in a Party">
+    Form a full party, use a monster annihilation buff, and burn your daily kill quota on the best spot for your level bracket. Save dance party and similar commission completions for server level ups.
+  </Step>
+  <Step num="5" title="Pivot to Card Farming at Level 52+">
+    From the mid game onward, choose grinding spots based on loot as much as EXP. Target cards your class needs, or high-value cards you can sell on the auction house.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Do Not Waste Early Quest EXP">
+Submitting a stockpile of story quests before the server level increases is the single most common EXP mistake. Players who save quests consistently hit level caps days ahead of those who submit early.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Grinding Spots by Level Bracket">
+
+Spot selection changes as you level. Early on, pure EXP speed wins. Later, you should weigh the card drops each map offers against raw EXP per hour.
+
+| Level | Grinding Spot | Key Target | Why Farm Here |
+|---|---|---|---|
+| 1-40 | Story quest zones | Quest completion | Fast EXP plus free gear and unlock items |
+| 41 | Sunken Ship | Hydra | Two dense spawn points, fast respawn rate |
+| 41 | Byalan Island | Thara Frog | Widely available, easy AoE farming |
+| 41 | Goblin Forest | Goblins | **Goblin card** (brute damage), purple cards for auction |
+| 52 | Mjolnir Abandoned Mine | Skel Worker | **Skel Worker card**, earliest reliable card farm |
+| 62 | Orc Village | Orc Skeleton | Strong versus holy enemies in later content |
+| 70 | Byalan Sea Tunnel | Strouf | Good EXP plus sellable loot |
+| 70 | Marduk map | Marduk | Card grants **silence immunity** |
+| 70 | Geffen Dungeon | Nightmare | Nightmare card adds agility |
+| 80 | Kobold map | Kobold | Card boosts strength and crit significantly |
+| 80 | Geffen Tower | Deveruchi | Card boosts strength and grants **blind immunity** |
+| 84 | Sphinx | Pasana | Highly demanded card for MVP hunting |
+| 90 | Byalan deep floors | Deviace, Squidge | Deviace boosts damage vs multiple monster types |
+
+<Callout type="tip" title="Loot Changes Everything">
+At level 52 and beyond, a slightly lower-EXP map with a card you actually need is worth more than a pure EXP map. A single purple card sold on auction can fund weeks of gear upgrades.
+</Callout>
+
+**Utility cards worth detouring for:**
+
+| Card | Source Monster | Effect | Priority |
+|---|---|---|---|
+| Marc | Byalan | Immunity to frozen | ★★★★ |
+| Swordfish | Byalan | Water element boost | ★★★ |
+| Marduk | Marduk | Silence immunity | ★★★★ |
+| Deveruchi | Geffen Tower | Strength boost, blind immunity | ★★★★ |
+| Kobold | Kobold map | Strength and crit boost | ★★★★★ |
+| Pasana | Sphinx | Core MVP/Ton farming card | ★★★★★ |
+
+</Section>
+
+<Section icon={Shield} title="Survival Setup for Long Grind Sessions">
+
+Dying mid-AFK is the biggest silent EXP loss in Ragnarok Go. A proper survival setup keeps your character grinding for the full session without babysitting.
+
+<CardGrid cols={2}>
+  <Card title="Healing Pet Setup">
+    - Equip **Baphomet Jr.** and upgrade it as high as possible
+    - Buy pet recovery food from the Eden Coin shop
+    - Eel rice restores pet HP every 10 seconds
+    - Pet watermelon juice enables automatic recovery
+  </Card>
+  <Card title="Character Setup">
+    - Configure the **auto-recovery device** with juices and puddings
+    - Carry defensive puddings earned from annihilation rewards
+    - Check that recovery thresholds trigger before lethal damage
+    - Recheck setup before every overnight session
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Exclusive Battlefield Pass">
+If crowded maps are slowing your party down, the exclusive battlefield pass from the radiant pass lets you summon your party into a private VIP map for a month. You get a free choice of spawn spots with zero competition.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daily Routine Checklist">
+
+Consistency beats intensity. Run this checklist every day and your leveling pace will stay ahead of the curve.
+
+<Checklist
+  id="daily-leveling-routine"
+  title="Daily Leveling Routine:"
+  items={[
+    "Form or join a full grinding party",
+    "Claim all 80 daily commission tickets",
+    "Burn full monster kill quota with speed buffs",
+    "Save story and sub quests for server level ups",
+    "Hold completed commission submissions until server level rises",
+    "Verify pet food and auto-recovery before AFK sessions",
+    "Check auction for card drops and price updates"
+  ]}
+/>
+
+<Callout type="success" title="Weekly Review">
+Once per week, review which cards your build still needs and rotate your grinding spot accordingly. A one-hour audit can redirect dozens of hours of quota toward loot that actually improves your character.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the fastest way to level in Ragnarok Go?",
+    answer: "Party grinding with your full daily kill quota, combined with saved story quests submitted right after a server level increase. Party play boosts both base and job EXP per kill, making it the core of any efficient Ragnarok Go leveling plan."
+  },
+  {
+    question: "Why should I save story quests instead of submitting them?",
+    answer: "Story and sub quest EXP scales with the server level. Holding completed quests and submitting them only after the server level rises yields noticeably more EXP, which is how some players hit levels ahead of the natural cap."
+  },
+  {
+    question: "Can I save daily commission tickets too?",
+    answer: "Yes. Accept quests like the dance party, complete them, but do not submit. Turn them in once the server level increases so the reward EXP scales up with it."
+  },
+  {
+    question: "When should I stop chasing pure EXP and farm cards instead?",
+    answer: "Around level 52, when the Mjolnir Abandoned Mine opens up Skel Worker farming. From that point, weigh loot value against EXP per hour — cards like Pasana, Kobold, and Deveruchi improve your character far more than a few extra levels."
+  }
+]} />
+
+</Section>

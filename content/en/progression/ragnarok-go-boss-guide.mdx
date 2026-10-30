@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ragnarok GO Boss Guide: Boss Mechanics & Team Setup Tips",
+  description: "Learn how to beat every major boss in Ragnarok GO: mechanics breakdowns, team composition, stat priorities, and farm strategies for consistent clears.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Boss+Guide",
+  date: "2026-10-30",
+  author: "ragnarok go Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ragnarok GO boss guide**: Learn each boss's mechanics before the fight starts, not during it
+- **Team composition**: Balance tank, DPS, healer, and support buffs for stable clears
+- **Stat priority**: Survivability first, damage second — dead players deal no damage
+- **Consumables**: Always carry healing items, buffs, and revival tools into arena fights
+- **Progression**: Farm lower difficulty tiers before pushing the hardest content
+</Callout>
+
+<Section icon={Map} title="Understanding Ragnarok GO Boss Fights">
+
+Boss encounters are the main skill check in Ragnarok GO. Unlike regular field monsters, bosses come with distinct attack patterns, phase transitions, and mechanics that punish players who try to brute-force them with raw stats alone. Every wipe teaches you something — but the goal of this guide is to make sure you learn those lessons before you spend your attempt tokens.
+
+There are three broad categories of boss encounters you will run into:
+
+<CardGrid cols={3}>
+  <Card title="Story Bosses">
+    - **Fixed difficulty** tied to main quest progress
+    - Teach core mechanics gradually
+    - Reward progression items and unlocks
+  </Card>
+  <Card title="Field / World Bosses">
+    - **Timed spawns** with server-wide participation
+    - Damage contribution determines reward tier
+    - Best source of rare crafting materials
+  </Card>
+  <Card title="Challenge Bosses">
+    - **Tiered difficulty** (easy through hardest modes)
+    - Require tuned gear and team synergy
+    - Drop exclusive equipment and titles
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Preparation Is Half the Fight">
+Before entering any challenge boss, watch its attack rotation once at the lowest difficulty. Recognizing the tell for an AoE burst or a bleed application is worth more than a few extra points of attack.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss Mechanics Breakdown">
+
+Most Ragnarok GO bosses follow a layered mechanic design: a basic auto-attack, a telegraphed special ability, and a dangerous enrage or phase change at low health. The table below summarizes the patterns you will encounter most often.
+
+| Mechanic | What It Looks Like | How to Counter |
+| --- | --- | --- |
+| AoE burst | Ground marker or cast bar before explosion | Move out of the marked zone before the cast finishes |
+| Single-target nuke | Boss locks onto one player | Tank taunts, or target pops a defensive cooldown |
+| Bleed / DoT | Stacking damage-over-time debuff | Bring cleanse support or immunity consumables |
+| Summon adds | Boss spawns minions mid-fight | Assign one DPS to clear adds immediately |
+| Enrage | Damage spike at low boss HP | Save burst cooldowns for the final 20% |
+| Reflect shield | Boss returns damage taken | Stop attacking until the shield drops |
+
+<Callout type="warning" title="Do Not Ignore Cast Bars">
+The majority of avoidable deaths come from players continuing their damage rotation during a telegraphed AoE. If a cast bar appears and you do not know what it does, default to repositioning first and asking questions later.
+</Callout>
+
+A practical read of each fight looks like this:
+
+- **First 30 seconds**: Identify the boss's basic rotation and how frequently it uses specials
+- **Phase change**: Note whether the boss gains new attacks or speeds up
+- **Low HP window**: Confirm the enrage threshold and plan your burst accordingly
+
+</Section>
+
+<Section icon={Shield} title="Team Composition & Stat Priorities">
+
+A well-built team clears content well above its gear level. A poorly built team wipes to bosses it should stomp. These are the four roles every serious boss party should cover.
+
+| Role | Function | Key Stats |
+| --- | --- | --- |
+| Tank | Holds aggro, absorbs nukes | **HP**, Defense, aggro generation |
+| Main DPS | Kills the boss before enrage | **Attack**, Crit Rate, Crit Damage |
+| Sub DPS / Add Clear | Handles summons, off-damage | Attack, Attack Speed |
+| Healer / Support | Sustains team, cleanses debuffs | **Healing power**, SP, buff duration |
+
+For stat allocation, follow this order of importance:
+
+1. **Survivability threshold** — enough HP and defense to survive the boss's biggest hit twice
+2. **Damage output** — enough to clear the fight before enrage
+3. **Utility** — buff uptime, cleanse availability, revival options
+
+<Callout type="success" title="The Two-Hit Rule">
+If the boss's hardest attack kills you from full HP, you are not ready for that difficulty. If you survive it but die to the follow-up, you are close — tune defense slightly and refine your dodges.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Boss Clear Strategy">
+
+Use this repeatable process for every new boss you attempt. It converts a blind wipe into a structured learning loop.
+
+<Steps>
+  <Step num="1" title="Scout the Fight">
+    Run the boss once at its lowest difficulty or watch the attack rotation. Note every telegraphed ability and the enrage behavior. Do not burn consumables on this run.
+  </Step>
+  <Step num="2" title="Build the Party">
+    Fill all four roles from the composition table above. Confirm your tank meets the survivability threshold and your DPS combined can beat the enrage timer.
+  </Step>
+  <Step num="3" title="Set the Opener">
+    Establish a fixed opening sequence: tank pulls, support applies buffs, DPS waits two seconds before unloading. A consistent opener prevents early aggro flips.
+  </Step>
+  <Step num="4" title="Execute the Mechanics">
+    Prioritize dodging over damage. Keep cleanse ready for the bleed window, clear adds the moment they spawn, and hold burst cooldowns for the final 20%.
+  </Step>
+  <Step num="5" title="Review and Push Difficulty">
+    After a clear, identify what went wrong even in victory. Fix gear or rotation gaps, then step up one difficulty tier at a time — never skip tiers on new bosses.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Log Your Wipes">
+Keep a simple note of what killed you each attempt. Three wipes to the same mechanic is a player-knowledge problem; three wipes to raw damage is a gear problem. The fixes are completely different.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Reward Farming & Progression Loop">
+
+Boss farming in Ragnarok GO is about efficiency, not just repetition. Match your farm target to what your progression actually needs.
+
+| Goal | Best Target | Notes |
+| --- | --- | --- |
+| Gear upgrades | Challenge bosses at your clearable tier | **Highest-value drops** per attempt |
+| Crafting materials | World bosses with participation rewards | No attempt token cost, spawn on timers |
+| Skill investment | Story bosses on repeat | Fast, safe, low consumable usage |
+| Titles / achievements | Highest difficulty clears | Usually one-time exclusive rewards |
+
+<Callout type="warning" title="Respect Attempt Costs">
+If a challenge boss consumes limited daily attempts, do not spend them on a difficulty you cannot clear. Farm the tier below for guaranteed income and push up once your stats pass the two-hit rule.
+</Callout>
+
+<Checklist
+  id="boss-prep"
+  title="Pre-Boss Checklist:"
+  items={[
+    "Confirm all four party roles are filled",
+    "Stock healing items, buffs, and revival tools",
+    "Meet the two-hit survivability rule for this difficulty",
+    "Review the boss's mechanic list once before entering",
+    "Save burst cooldowns for the enrage window"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is this Ragnarok GO boss guide suitable for solo players?",
+    answer: "The mechanics and stat priorities apply to solo play, but most challenge bosses are tuned for parties. Solo players should over-invest in survivability and lifesteal-style sustain, and treat story bosses as their main progression target."
+  },
+  {
+    question: "What is the most common reason teams wipe in Ragnarok GO boss fights?",
+    answer: "Ignoring telegraphed mechanics. Players tunnel-vision on their damage rotation and eat AoE bursts. Dodging always comes before damage — a surviving DPS outperforms a dead one."
+  },
+  {
+    question: "Should I level gear before attempting higher boss difficulties?",
+    answer: "Yes. Use the two-hit rule as your gate: if the boss's strongest attack kills you from full HP, farm the tier below for upgrades first rather than wasting attempts."
+  },
+  {
+    question: "Are world bosses worth doing daily?",
+    answer: "World bosses cost no attempt tokens and reward based on damage contribution, making them one of the most efficient daily activities for rare crafting materials. Show up on spawn, deal as much damage as you safely can, and collect the reward tier."
+  }
+]} />
+
+</Section>

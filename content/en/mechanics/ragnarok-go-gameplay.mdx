@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ragnarok: GO Gameplay: Core Systems & Combat Tips",
+  description: "Learn how Ragnarok: GO gameplay works: auto-battle, offline progression, classes, pets, team dungeons, and daily loop tips for Gravity's pixel idle RPG.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/18B8E8/fff?text=Ragnarok+GO+Gameplay",
+  date: "2026-10-30",
+  author: "ragnarok go Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ragnarok: GO gameplay** centers on pixel-art idle RPG systems with auto-battle and 24/7 offline progression.
+- **Core loop**: push the main story, unlock systems, then optimize a daily farming routine.
+- **Six classic classes** (Swordsman, Archer, Mage, Acolyte, Thief, Merchant) cover every combat role.
+- **Pets and partners** amplify clear speed, single-target damage, and dungeon stability.
+- **New players** receive up to 4,000 free draws as part of launch-era beginner rewards.
+</Callout>
+
+<Section icon={Map} title="Ragnarok: GO Gameplay Overview">
+
+Ragnarok: GO is a Gravity-authorized pixel-art idle RPG for mobile, blending the classic Ragnarok job system with modern auto-battle convenience. Launched across 11 Southeast Asian regions, it supports auto-combat, offline growth, pet collecting, job advancement, team dungeons, and real-time chat in more than 10 languages.
+
+The game is designed around **progression without constant attention**: your character keeps farming while you are offline, and active playtime is spent pushing story gates, upgrading gear, and clearing limited-time content.
+
+| Gameplay System | What It Does | Player Priority |
+|---|---|---|
+| Auto-Battle | Characters fight and farm automatically | Foundational for all content |
+| Offline Progression | Resources accumulate 24/7 while logged out | Collect before storage caps |
+| Job System | Advance through classic Ragnarok class routes | High, unlocks core skills |
+| Pets & Partners | Provide stats, skills, and clear support | Medium-high, scale with investment |
+| Team Dungeons | Group content with better resources | High at mid-game |
+| Events & Free Draws | Limited-time rewards and recruitment | High, time-sensitive |
+
+<Callout type="tip" title="Core Loop">
+Spend active time pushing the main story and spending limited daily attempts; let offline farming handle the resource grind. Never leave idle rewards sitting at the storage cap.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Classes and Combat Roles">
+
+Combat in Ragnarok: GO is built on familiar Ragnarok archetypes. Your class choice shapes your auto-battle efficiency, dungeon role, and how comfortably you clear story stages.
+
+| Class | Job Route | Role | Idle Efficiency | Best Content |
+|---|---|---|---|---|
+| Swordsman | Knight or Crusader | Frontline damage and durability | High | Story, bosses, dungeons |
+| Archer | Hunter or Bard/Dancer | Ranged single-target damage | High | Bosses, open-field farming |
+| Mage | Wizard or Sage | AoE magic damage and control | High with group clears | Multi-enemy stages, dungeons |
+| Acolyte | Priest or Monk | Healing, buffs, hybrid melee | Medium to high | Team dungeons, long fights |
+| Thief | Assassin or Rogue | Burst damage and mobility | Medium to high | Bosses, target farming |
+| Merchant | Blacksmith or Alchemist | Economic utility, physical damage | Medium to high | Resource farming, gearing |
+
+<CardGrid cols={3}>
+  <Card title="Best Solo Idle">
+  - **Archer / Hunter**: safe ranged clears
+  - **Mage / Wizard**: fast wave clearing
+  - Strong per-hour farming rates
+  </Card>
+  <Card title="Best Team Value">
+  - **Acolyte / Priest**: healing and buffs
+  - **Swordsman**: durable frontline
+  - Excellent in group dungeons
+  </Card>
+  <Card title="Best Burst">
+  - **Thief / Assassin**: critical burst
+  - Strong against bosses
+  - Rewards targeted investment
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Class Choice Matters">
+Choose based on the content you play most. Support classes shine in team dungeons but clear solo story content more slowly than Archer or Mage builds.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Daily Progression Step-by-Step">
+
+An efficient daily loop is what separates fast accounts from stalled ones. Follow this order every day before spending any stamina or enhancement materials.
+
+<Steps>
+  <Step num="1" title="Collect Idle Rewards First">
+  Log in and claim all accumulated offline earnings before they hit the storage limit. These rewards fund every other upgrade in the game.
+  </Step>
+  <Step num="2" title="Clear Limited Attempts">
+  Run daily-limited content: resource stages, limited dungeons, and event challenges. These attempts do not carry over, so they are always the highest-priority activity.
+  </Step>
+  <Step num="3" title="Complete Daily Missions and Events">
+  Finish daily missions, sign-in calendars, and event objectives. Prioritize time-limited event missions before ordinary farming.
+  </Step>
+  <Step num="4" title="Upgrade the Current Bottleneck">
+  Identify the exact stat or damage requirement blocking your next story stage, then upgrade only the equipment slot or pet that addresses it.
+  </Step>
+  <Step num="5" title="Reset for Offline Farming">
+  Before logging out, park your character in the highest stable farming area your build can clear without defeats.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Efficiency Rule">
+Complete reset-based and limited content first, then manual farming. Any stamina left over goes to the resource stage matching your current bottleneck.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipment, Pets, and Build Priorities">
+
+Resources are scarce, and spreading them evenly across every slot is the most common early-game mistake. Match your upgrades to the content you actually play.
+
+| Content Type | Upgrade Priority | Pet/Partner Focus |
+|---|---|---|
+| Story stages | Weapon, main damage gear, survival pieces | Consistent clear support |
+| Boss encounters | Weapon, single-target and crit bonuses | Sustained damage, survivability |
+| Team dungeons | Role-defining weapon, core skills | Team utility matching your role |
+| Idle farming | Clear-speed weapon, attack speed, sustain | Stability, reduced downtime |
+
+<Checklist
+  id="build-goals"
+  title="Build Milestones:"
+  items={[
+    "Maximize the primary weapon before secondary slots",
+    "Equip best available gear instead of hoarding low-level items",
+    "Assign one pet supporting your main combat objective",
+    "Save scarce materials for long-term equipment",
+    "Prepare a separate boss setup once farming is stable"
+  ]}
+/>
+
+<Callout type="tip" title="Avoid Even Distribution">
+Concentrate common enhancement materials on the main weapon and core gear that stay useful across multiple stages. Pets and partners should reinforce, not conflict with, your build's stats.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Events, Free Draws, and Resources">
+
+Event rewards in Ragnarok: GO are spread across login pages, mission panels, event shops, and limited dungeons, which makes them easy to miss. Launch-era accounts can access up to **4,000 new player draws**, so claiming beginner resources before spending premium currency is essential.
+
+- **Sign-in calendars**: claim daily; check whether missed days are recoverable.
+- **Growth campaigns**: hit listed level and story milestones early.
+- **Limited dungeons**: spend event attempts before ordinary farming.
+- **Free draws**: use within each reset period before they expire.
+- **Exchange shops**: buy the hardest-to-farm progression materials first.
+
+<Callout type="info" title="Official Channels">
+Codes and event announcements come from the official website, the official Facebook page, and the official Discord. Verify any code through these channels before redeeming, since campaign windows vary by event.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is Ragnarok: GO gameplay like for busy players?",
+    answer: "It is an idle RPG at heart. Auto-battle handles combat, and your character keeps accumulating resources 24/7 through offline progression, so short active sessions pushing story gates and spending limited attempts are enough to grow steadily."
+  },
+  {
+    question: "Which class is best for pure idle farming in Ragnarok: GO?",
+    answer: "Archer and Mage builds are the strongest idle farmers. Archers deliver safe ranged single-target damage, while Mages clear grouped enemies quickly, giving both high rewards per hour."
+  },
+  {
+    question: "How should I use the new player free draws?",
+    answer: "Claim all beginner missions, mailbox, and sign-in rewards first, then spend free tickets before premium currency. Favor results that build a complete early core over one isolated high-rarity pull."
+  },
+  {
+    question: "What should I upgrade first: equipment or pets?",
+    answer: "Upgrade your primary weapon and main damage gear first, then survival pieces for the current stage. Pets and partners come after the core combat setup is stable."
+  }
+]} />
+
+</Section>

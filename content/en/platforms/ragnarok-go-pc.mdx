@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ragnarok GO PC: Setup Guide, Emulator Comparison & Settings",
+  description: "How to play Ragnarok GO on PC in 2026: emulator comparison, step-by-step setup, best performance settings, and control tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Ragnarok+GO+PC+Setup",
+  date: "2026-10-30",
+  author: "ragnarok go Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ragnarok GO PC** play is possible through Android emulators on Windows and macOS.
+- **Best emulators**: BlueStacks, LDPlayer, and MuMu Player all run the game smoothly.
+- **Key settings**: Enable high FPS mode, allocate 4 GB RAM, and use multi-instance for alts.
+- **Controls**: Map keyboard keys to skills for faster combat than touchscreen taps.
+- **Warning**: Only download the game from official stores to protect your account.
+</Callout>
+
+<Section icon={Map} title="Can You Play Ragnarok GO on PC?">
+
+Ragnarok GO is designed as a mobile title, but playing **Ragnarok GO on PC** is fully achievable with an Android emulator. The game runs well on mid-range hardware, and a keyboard-and-mouse setup gives you a real edge in fast-paced combat, grinding sessions, and event windows where reaction speed matters.
+
+Emulators translate touch input into keyboard and mouse commands, letting you assign every skill, potion, and menu action to a dedicated key. This is the single biggest quality-of-life upgrade for long grinding sessions in Ragnarok GO.
+
+<CardGrid cols={3}>
+  <Card title="Keyboard Controls">
+    - **Faster skill weaving** than taps
+    - Custom keybinds per class
+    - Reduced hand fatigue
+  </Card>
+  <Card title="Better Visibility">
+    - **Larger screen** for boss mechanics
+    - Sharper rendering at higher resolutions
+    - Easier party coordination
+  </Card>
+  <Card title="Multi-Instance">
+    - Run **alt accounts** simultaneously
+    - Farm on multiple characters
+    - Manage guild tasks efficiently
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Account Safety">
+Always install Ragnarok GO through the Google Play Store inside your emulator. Third-party APKs risk malware and account bans. Bind your account to an official linking service before switching devices.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Emulator Comparison: Which One to Pick">
+
+Not every emulator handles Ragnarok GO equally. Choose based on your hardware and priorities.
+
+| Emulator | Best For | RAM Needed | Multi-Instance | Rating |
+| --- | --- | --- | --- | --- |
+| BlueStacks | All-around stability, keymapping | 8 GB system / 4 GB allocated | Yes | ★★★★★ |
+| LDPlayer | Lightweight, older PCs | 6 GB system / 3 GB allocated | Yes | ★★★★ |
+| MuMu Player | High FPS gaming | 8 GB system / 4 GB allocated | Yes | ★★★★ |
+| Google Play Games (PC) | Official Android titles | 8 GB system, SSD required | No | ★★★ |
+
+**Recommended hardware baseline:**
+
+| Component | Minimum | Recommended |
+| --- | --- | --- |
+| CPU | Quad-core Intel i3 / Ryzen 3 | 6-core i5 / Ryzen 5 |
+| RAM | 8 GB | 16 GB |
+| GPU | Integrated | GTX 1050 / RX 560 or better |
+| Storage | 10 GB free | SSD with 20 GB free |
+
+<Callout type="tip" title="Pro Tip">
+Enable virtualization (VT) in your BIOS before launching any emulator. It typically doubles performance and eliminates stutter during crowded field farming.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Step-by-Step PC Setup">
+
+Follow this sequence to get Ragnarok GO running cleanly on PC the first time.
+
+<Steps>
+  <Step num="1" title="Install Your Emulator">
+    Download BlueStacks or LDPlayer from the official website only. Run the installer, restart when prompted, and confirm VT is enabled in the emulator's settings panel.
+  </Step>
+  <Step num="2" title="Sign In to Google Play">
+    Open the built-in Play Store, sign in with your Google account, and update Play Services if the emulator prompts you.
+  </Step>
+  <Step num="3" title="Download Ragnarok GO">
+    Search for Ragnarok GO, install it from the official listing, and let the initial data download finish before launching.
+  </Step>
+  <Step num="4" title="Configure Performance Settings">
+    Set CPU cores to 4, allocated RAM to 4 GB, and resolution to 1920x1080. Enable the high-performance mode in emulator settings.
+  </Step>
+  <Step num="5" title="Set Up Keybinds">
+    Open the keymapping tool and assign skills, movement, and potions to keys around WASD. Save your profile so it reloads automatically.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Setup Complete">
+After binding your account in-game, your progress syncs between PC and mobile instantly, so you can grind at your desk and continue quests on the go.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Settings & Control Tips">
+
+Tuning the game and emulator together produces the smoothest experience. Prioritize frame rate in crowded areas and visual quality for boss fights.
+
+| Setting | Location | Recommended Value | Why |
+| --- | --- | --- | --- |
+| FPS mode | Emulator settings | 60 FPS | Smoother combat animations |
+| CPU cores | Emulator settings | 4 | Stable without starving Windows |
+| RAM allocation | Emulator settings | 4 GB | Prevents crashes in towns |
+| Graphics preset | In-game options | Medium to High | Balance visuals and FPS |
+| Battery saver | In-game options | Off | Avoids FPS throttling |
+
+**Control layout that works for most classes:**
+
+- Bind movement to **WASD** or click-to-move
+- Place main attack skills on **Q, E, R, F**
+- Put potions on **1 and 2** for instant access
+- Assign auto-battle toggle to **Spacebar**
+- Map camera or menus to **Tab** and **B**
+
+<Callout type="tip" title="Grinding Efficiency">
+Use the emulator's macro recorder to automate repetitive loops like daily turn-ins, but avoid unattended overnight macros, as automation tools can violate the game's terms of service.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="PC Setup Checklist & FAQ">
+
+Work through this checklist once your install is complete to confirm everything is configured correctly.
+
+<Checklist
+  id="pc-setup-goals"
+  title="PC Setup Milestones:"
+  items={[
+    "Emulator installed with VT enabled",
+    "Ragnarok GO installed from Play Store",
+    "Account bound to official login service",
+    "Keybinds saved for skills and potions",
+    "60 FPS confirmed in a crowded town"
+  ]}
+/>
+
+<Callout type="info" title="Ongoing Maintenance">
+Update both the emulator and Ragnarok GO after every major patch. Stale emulator versions are the most common cause of crashes after game updates.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Is playing Ragnarok GO on PC allowed?",
+    answer: "Using a mainstream Android emulator such as BlueStacks or LDPlayer is generally treated as a standard way to play mobile games. Avoid injected clients and automation scripts, which do violate the rules."
+  },
+  {
+    question: "Will my Ragnarok GO account transfer between PC and phone?",
+    answer: "Yes. Bind your account to the official linking service in the in-game settings, then log in with the same credentials on any device or emulator."
+  },
+  {
+    question: "Which emulator is best for low-end PCs running Ragnarok GO?",
+    answer: "LDPlayer is typically the lightest option and runs well on 6 GB of system RAM. Lower the in-game graphics preset to medium and cap the emulator at 2 CPU cores if you experience stutter."
+  },
+  {
+    question: "Can I run multiple Ragnarok GO accounts on PC?",
+    answer: "BlueStacks, LDPlayer, and MuMu all support multi-instance mode, letting you run an alt account for farming or storage while playing your main character."
+  }
+]} />
+
+</Section>
